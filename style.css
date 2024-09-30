@@ -6,26 +6,48 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    color:#40514E;
+    font-family: "Merriweather", serif;
     line-height: 1.6;
     background-color: #f4f4f4;
   }
   
-  /* Header Styles */
+  h1{
+    font-size: 5.625rem;
+    font-family: 'Sacramento',cursive;
+  }
+
   header {
-    background: #333;
-    color: #fff;
+    background: #E4F9F5;
+    color:black;
     padding: 20px;
     display: block;
+    text-align: center;
   }
+
+  hr{
+    border: dotted #EAF6F6;
+    width: 4%;
+    margin: 50px auto;
+  }
+
+  .bio{
+    width: 70%;
+    margin: 40px auto 40px;
+  }
+
   #profileimage{
     border-radius: 48%;
   }
+
   nav{
+    color: #66bfbf;
+    font-size: large;
     display: inline-block;
     position: absolute;
     right: 90px;
     top:20px;
+    font-weight: normal;
   }
   
   nav ul {
@@ -39,12 +61,21 @@
   }
   
   nav ul li a {
-    color: white;
+    color: #11999e;
     text-decoration: none;
+    font-weight: normal;
+  }
+
+  nav ul li a:hover{
+    color: #40514E;
   }
   
   .hero {
-    margin-top: 20px;
+    color: #66bfbf;
+    font-weight: normal;
+    line-height: 2;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
   
   .hero h1 {
@@ -65,6 +96,7 @@
   }
   
   h2 {
+    color: #11999e;
     font-size: 2rem;
     margin-bottom: 10px;
   }
@@ -95,20 +127,22 @@
     border: 1px solid #ddd;
     padding: 15px;
     margin: 15px 0;
+    border-radius: 8px;
   }
   
   .project a {
+    background-color: #11cdd4;
     display: inline-block;
     margin-top: 10px;
-    color: #333;
+    color: #fff;
     text-decoration: none;
-    border: 1px solid #333;
+    border: 1px solid;
     padding: 5px 10px;
     border-radius: 5px;
   }
   
   .project a:hover {
-    background-color: #333;
+    background-color: #30E3CB;
     color: #fff;
   }
   
@@ -143,6 +177,37 @@
   footer {
     text-align: center;
     padding: 10px;
-    background: #333;
+    background: #66BFBF;
     color: #fff;
-  }  
+  } 
+
+  .copyright {
+    color: #EAF6F6; 
+    font-size: 0.75rem;
+    padding: 10px 0;
+  } 
+
+  #about a{
+    background-color: #11cdd4;
+    border: 1px solid;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+  }
+
+  #about a:hover {
+    background-color: #30E3CB;
+    color: #fff;
+  }
+
+  .social a{
+    color: #11999e;
+    text-decoration: none;
+    margin: 5px 10px;
+  }
+  .social a:hover{
+    color: #EAF6F6;
+  }
