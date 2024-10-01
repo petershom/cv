@@ -203,11 +203,12 @@
     color: #fff;
   }
 
-  .social a{
-    color: #11999e;
+  .social-icons a {
+    font-size: 10px;
+    margin: 0 10px;
     text-decoration: none;
-    margin: 5px 10px;
-  }
-  .social a:hover{
-    color: #EAF6F6;
-  }
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
