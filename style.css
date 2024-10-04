@@ -19,7 +19,7 @@
 
   header {
     background: #E4F9F5;
-    color:black;
+    color:#66bfbf;
     padding: 20px;
     display: block;
     text-align: center;
@@ -40,8 +40,8 @@
     border-radius: 48%;
   }
 
-  nav{
-    color: #66bfbf;
+  .container-fluid{
+    
     font-size: large;
     display: inline-block;
     position: absolute;
@@ -51,12 +51,13 @@
   }
   
   nav ul {
-    list-style: none;
-    padding: 0;
+    display: flex;
+    justify-content: end;
+    
   }
   
   nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
   }
   
@@ -64,6 +65,7 @@
     color: #11999e;
     text-decoration: none;
     font-weight: normal;
+
   }
 
   nav ul li a:hover{
@@ -176,9 +178,11 @@
   /* Footer Styles */
   footer {
     text-align: center;
-    padding: 10px;
+    padding: 10px 0 10px 0;
+    margin-bottom: 0%;
     background: #66BFBF;
     color: #fff;
+    
   } 
 
   .copyright {
@@ -204,11 +208,7 @@
   }
 
   .social-icons a {
-    font-size: 10px;
+ 
     margin: 0 10px;
     text-decoration: none;
-}
-
-.social-icons a:hover {
-    color: #007bff; /* Change color on hover */
 }
